@@ -17,7 +17,7 @@ engine = pyttsx3.init('sapi5')
 voices= engine.getProperty('voices')
 print(voices[1].id)
 engine.setProperty('voice', voices[1].id)
-openai.api_key='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'
+openai.api_key='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'
 
 def speak(audio):
     engine.say(audio) 
